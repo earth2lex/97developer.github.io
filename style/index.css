@@ -1,0 +1,232 @@
+/***********************************************/
+/*		  STYLE	   	  FOR		  HOME		   */
+/***********************************************/
+body{
+	width: 100%;
+	margin: 0px;
+	font-family: arial;
+	color: #fff;
+	background: #888;
+}
+#whole{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(4, minmax(100px, auto));
+	margin: 0;
+}
+.nine-seven{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	background: #000;
+	border: 2px solid #888;
+	border-radius: 15px;
+}
+.nine-seven .logo{
+	height: 85%;
+	width: 53%;
+	margin-top: 2%;
+	padding-top: 2%;
+	margin-left: 13%;
+	padding-left: 13%;
+}
+.side-bar{
+	background:#000;
+	grid-column: 1/2;
+	grid-row: 2/7;
+	padding: 2%;
+	border: 2px solid #888;
+	border-radius: 15px;
+}
+.side-bar ul{
+	text-align: center;
+	list-style-type: none;
+}
+.side-bar li{
+	margin: 15% 25% 15% -10%;
+	border: 1px solid #fff;
+	background: #456;
+	border-radius: 10px;
+}
+.side-bar #start{
+	background: #fff;
+	border-radius: 10px;
+	color: #000;
+}
+.side-bar a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 7px;
+	padding-left: -7px;
+	padding-right: -7px;
+	transition: all 0.3s linear;
+}
+.side-bar a:hover{
+	border-radius: 10px;
+	width: auto;
+	background: #bcd;
+	color: #456;
+	-webkit-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.side-bar #start:hover{
+	border-radius: 10px;
+	background: #bcd;
+	color: #456;
+	-webkit-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(4,5,6,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.socials{
+	display: flex;
+	background: #000;
+	grid-column: 1/2;
+	grid-row: 7/8;
+	list-style-type: none;
+	border:2px solid #888;
+	border-radius: 15px;
+}
+.socials ul{
+	text-align: center;
+	list-style-type: none;
+	text-decoration: none;
+}
+.socials a{
+	display: flex;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 6px;
+	transition: all 0.3s linear;
+	margin-left: 2px;
+}
+.face{
+	height: 22px;
+	width: 25px;
+	border: solid 1px #fff;
+	background: white;
+	border-radius: 5px;
+	margin-top: 17px;
+}
+.insta{
+	height: 35px;
+	width: 47px;
+	margin-top: 12px;
+}
+.tele{
+	color: black;
+	height: 25px;
+	width: 25px;
+	padding-top: 5px;
+	padding-right: 5px;
+	margin-top: 12px;
+}
+.banner{
+	background: #888;
+	grid-column: 2/13;
+	grid-row: 1/2;
+	border: 2px solid #888;
+	border-radius: 10px;
+}
+.banner h1{
+	text-align: center;
+	font-size: 250%;
+	font-weight: lighter;
+	letter-spacing: 15px;
+	color: #456;
+	cursor: default;
+}
+.main-page{
+	background: #456;
+	grid-column: 2/13;
+	grid-row: 2/7;
+	width: 99%;
+	height: 600px;
+	border: 2px solid #888;
+	border-left: 0 solid #888;
+	border-radius: 15px;
+	margin: auto;
+	/*background-image: url("../img/art/11.jpg"),url("../img/art/3.jpg");*/
+	/*background-repeat: no-repeat;*/
+	background-position: center/*, top right*/;
+	background-size: contain;
+}
+.main-page .hat{
+	border: solid #fff 2px #456;
+	background: #000;
+	border-radius: 200px;
+	height: 40%;
+	width: 20%;
+	margin: 0;
+	padding-top: 6px;
+	padding-right: 20px;
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	justify-content: center;
+}
+.main-page h3{
+	position: absolute;
+	top: 580px;
+	left: 680px;
+	color: #456;
+	color: #000;
+}
+.main-page p{
+	position: absolute;
+	top: 610px;
+	left: 620px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+}
+.end{
+	background: #888;
+	grid-column: 2/13;
+	grid-row: 7/8;
+	border: 2px solid #888;
+	border-radius: 15px;
+}
+.end p{
+	text-align: center;
+	font-size: 18px;
+	word-spacing: 5px;
+	letter-spacing: 5px;	
+}
+.tops{
+	border: solid 3px #888;
+	background: #fff;
+	width: 50px;
+	height: 40px;
+	margin-left: 5px;
+	padding: 2px;
+	padding-top: -2px;
+	text-align: center;
+	border-radius: 15px;
+}
+.tops p{
+	margin-top: 10px;
+	padding-left: 7px;
+}
+.tops .car{
+	text-decoration: none;
+	color: #456;
+	font-weight: bolder;
+}
+.tops:hover{
+	cursor: pointer;
+	border: solid 3px #fff;
+	background: #888;
+	width: 50px;
+	height: 40px;
+	margin-left: 5px;
+	padding: 2px;
+	padding-top: -2px;
+	text-align: center;
+	border-radius: 15px;
+}

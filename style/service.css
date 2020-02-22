@@ -1,0 +1,53 @@
+/************************************************/
+/*             	STYLE FOR SERVICE             	*/
+/************************************************/
+body{
+	width: 100%;
+	margin: 0;
+	/*/*background: url(/*"../img/art/5.jpg");
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+#five{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.bar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+}
+.bar ul{
+	text-align: right;
+	list-style-type: none;
+	margin: 15px;
+	float: right;
+}
+/*.top-bar{
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 55%;
+}*/
+.bar li{
+	/*display: inline-block;*/
+	float: right;
+	margin-left: 25px;
+}
+.bar a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 6px;
+	font-weight: bolder;
+}
+#logo{
+	height: 50px;
+	width: 50px;
+}

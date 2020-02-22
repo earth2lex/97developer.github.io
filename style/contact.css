@@ -1,0 +1,203 @@
+/************************************************/
+/*               STYLE FOR CONTACT              */
+/************************************************/
+body{
+	background: #888;
+	width: 100%;
+	font-family: arial;
+	margin: 0;
+}
+.maker{
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	margin-left: 0;
+	padding-left: 0;
+	top: 0;
+	left: 0;
+	opacity: 0.5;
+}
+.banner .head-banner{
+	border: 1px solid #fff;
+	background: red;
+}
+.log .logo{
+	float: left;
+}
+.log .nogo{
+	width: 80px;
+	height: 80px;
+	padding: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.log .lagos{
+	text-transform: lowercase;
+	font-weight: bolder;
+	color: #000;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+	font-family: monospace;
+	padding: 12px;
+	position: absolute;
+	top: 0;
+	left: 9%;
+}
+.top-bar{
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 55%;
+}
+.top-bar ul{
+	text-align: right;
+	list-style-type: none;
+	margin: 15px;
+}
+.top-bar li{
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-bar a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 16px;
+	padding: 6px;
+	font-weight: bolder;
+}
+.top-bar  .leo{
+	border-bottom: 4px solid green;
+}
+.juice{
+	position: absolute;
+	top: 40%;
+	left: 25%;
+	width: 50%;
+	height: 400px;
+	margin: auto;
+	background: #fff;
+	font-family: arial;
+	color: #888;
+	border-radius: 12px;
+}
+.juice .male{
+	font-size: 30px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.juice .male span{
+	font-weight: bolder;
+	color: grey;
+}
+.juice .me{
+	height: 275px;
+	width: 225px;
+	float: left;
+	padding: 15px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+table{
+	border-color: white;
+	/*border-collapse: collapse;*/
+	border: 1px #fff solid;
+}
+table th{
+	text-align: left;
+	padding: 3px;
+	padding-left: 0;
+	margin-right: 5px;
+}
+table td{
+	padding-left: 3px;
+	margin-left: 5px;
+	text-align: left;
+}
+.juice .phone{
+	height: 15px;
+	width: 15px;
+	padding-left: 10px;
+}
+.juice .mail{
+	height: 17px;
+	width: 23px;
+	padding-left: 5px;
+}
+.juice .face{
+	height: 19px;
+	width: 30px;
+	padding-left: 2px;
+}
+.juice .gram{
+	height: 20px;
+	width: 25px;
+	padding-left: 5px;
+}
+.juice .whatsapp{
+	height: 19px;
+	width: 28px;
+	padding-left: 2px;
+}
+.juice .sauce{
+	display: flex;
+	border: solid 3px #fff;
+	background: #888;
+	margin: 12px; 
+	padding: 0;
+	justify-content: space-around;
+	border-radius: 12px;
+}
+.sauce .face{
+	width: 40px;
+	height: 30px;
+}
+.sauce .insta{
+	width: 35px;
+	height: 35px;
+}
+.sauce .tweet{
+	width: 35px;
+	height: 35px;
+}
+.sauce .what{
+	width: 35px;
+	height: 35px;
+}
+.sauce .google{
+	width: 35px;
+	height: 35px;
+}
+.more{
+	border: solid 3px #888;
+	background: #fff;
+	width: 13%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	margin-bottom: 50px;
+	padding: 2px;
+	text-align: center;
+	border-radius: 15px;
+	font-weight: bolder;
+}
+.more a{
+	text-decoration: none;
+	color: #456;
+}
+.more:hover{
+	border: solid 3px #fff;
+	background: #888;
+	margin: auto;
+	margin-top: -10px;
+	margin-bottom: 50px;
+	text-align: center;
+	border-radius: 15px;
+	cursor: pointer;
+}
